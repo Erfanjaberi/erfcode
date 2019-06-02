@@ -1,0 +1,28 @@
+
+SELECT * FROM erf
+
+SELECT * FROM mir
+
+INSERT INTO `erf`(`name`) VALUES ("asghar")
+(id in AI)
+
+INSERT INTO `mir`(`name`) VALUES ("asghar")
+(id in AI)
+
+SELECT * FROM erf , mir WHERE erf.id=mir.idm
+
+SELECT * FROM erf JOIN mir WHERE erf.id=mir.idm
+
+SELECT erf.name,erf.id
+FROM erf
+WHERE erf.id LIKE "ali";
+
+UPDATE `erf` SET `id`='6',`name`='ali' WHERE erf.id=1
+
+DELETE FROM `erf` WHERE erf.id=6
+
+SELECT erf.id(s)
+FROM erf
+WHERE id=erf.id
+GROUP BY erf.id(s)
+ORDER BY erf.id(s);
